@@ -11,7 +11,6 @@
 			request.open("GET", "https://uinames.com/api/?amount=25", true);
 
 			console.log("2 - opened request file");
-			console.log("status: " + request.status + " status text: " + request.statusText);
 
 			request.onreadystatechange = function() {
 				console.log("3 - readystatechange event fired.");
